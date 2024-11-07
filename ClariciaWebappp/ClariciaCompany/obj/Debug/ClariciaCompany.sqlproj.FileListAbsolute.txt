@@ -1,0 +1,10 @@
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\bin\Debug\ClariciaCompany.dacpac
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\ClariciaCompany.sqlproj.AssemblyReference.cache
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\Model.xml
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\refactor.xml
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\postdeploy.sql
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\predeploy.sql
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\ClariciaCompany.dll
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\obj\Debug\ClariciaCompany.pdb
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\bin\Debug\ClariciaCompany.dll
+C:\Ipt-102\ClariciaWebappp\ClariciaCompany\bin\Debug\ClariciaCompany.pdb

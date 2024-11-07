@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClariciaSolution/1.0.0": {
+        "dependencies": {
+          "Clariciaclass": "1.0.0"
+        },
+        "runtime": {
+          "ClariciaSolution.dll": {}
+        }
+      },
+      "Clariciaclass/1.0.0": {
+        "runtime": {
+          "Clariciaclass.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClariciaSolution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clariciaclass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

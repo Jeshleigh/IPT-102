@@ -1,0 +1,78 @@
+﻿@page "/Calculator"
+
+<h1>Calculator</h1>
+<hr />
+
+<div class="container calculator-background">
+    <EditForm Model="@this" OnValidSubmit="Calculate">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="num1">First Number:</label>
+            <InputNumber id="num1" @bind-Value="num1" placeholder="Enter First Number" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="num2">Second Number:</label>
+            <InputNumber id="num2" @bind-Value="num2" placeholder="Enter Second Number" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label>Result:</label>
+            <InputText @bind-Value="FinalResult" readonly class="form-control" />
+        </div>
+
+        <div class="button-group">
+            <button type="button" @onclick="AddNumber" class="btn btn-primary">Add (+)</button>
+            <button type="button" @onclick="SubtractNumber" class="btn btn-secondary">Subtract (-)</button>
+            <button type="button" @onclick="MultiplyNumber" class="btn btn-success">Multiply (*)</button>
+            <button type="button" @onclick="DivideNumber" class="btn btn-danger">Divide (/)</button>
+        </div>
+    </EditForm>
+</div>
+
+<style>
+   
+
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+</style>
+
+@code {
+    private double num1;
+    private double num2;
+    private string FinalResult { get; set; } = string.Empty;
+
+    private void Calculate() { }
+
+    private void AddNumber()
+    {
+        FinalResult = (num1 + num2).ToString();
+    }
+
+    private void SubtractNumber()
+    {
+        FinalResult = (num1 - num2).ToString();
+    }
+
+    private void MultiplyNumber()
+    {
+        FinalResult = (num1 * num2).ToString();
+    }
+
+    private void DivideNumber()
+    {
+        if (num2 != 0)
+        {
+            FinalResult = (num1 / num2).ToString();
+        }
+        else
+        {
+            FinalResult = "Cannot divide by zero.";
+        }
+    }
+}

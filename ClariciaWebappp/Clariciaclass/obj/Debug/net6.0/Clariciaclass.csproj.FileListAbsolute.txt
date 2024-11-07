@@ -1,0 +1,11 @@
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\bin\Debug\net6.0\Clariciaclass.deps.json
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\bin\Debug\net6.0\Clariciaclass.dll
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\bin\Debug\net6.0\Clariciaclass.pdb
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.AssemblyInfoInputs.cache
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.AssemblyInfo.cs
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.csproj.CoreCompileInputs.cache
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.dll
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\refint\Clariciaclass.dll
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.pdb
+C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\ref\Clariciaclass.dll

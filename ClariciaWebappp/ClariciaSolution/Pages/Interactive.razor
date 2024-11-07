@@ -1,0 +1,47 @@
+﻿@page "/inter"
+@using ClariciaWebappp.Data
+
+<div class="alert alert-success feedback-background">
+    <h4 class="fuchsia-text">FEEDBACK:</h4>
+    <p class="fuchsia-text"><strong>Name:</strong> @Input.Name</p>
+    <p class="fuchsia-text"><strong>Email Address:</strong> @Input.Address</p>
+    <p class="fuchsia-text"><strong>Message:</strong> @Input.Color</p>
+</div>
+
+
+<EditForm Model="Input" OnInvalidSubmit="SubmitToolsData" name="student-form" method="Post">
+    <div class="row">
+        <div class=" col-2">
+            <div class="login-container">
+                <InputText @bind-Value="Input.Name"
+                           class=" form-control" />
+                <label class=" form-label" for=" Input.Name">Name</label>
+
+                <InputText @bind-Value="Input.Address"
+                           class=" form-control" />
+                <label class=" form-label" for=" Input.Address">Address </label>
+
+                <InputText @bind-Value="Input.Color"
+                           class=" form-control" />
+                <label class=" form-label" for=" Input.Color">Color</label>
+            </div>
+
+        </div>
+    </div>
+
+    <button class=" btn btn-primary" type="Submit"> Save</button>
+    <button class=" btn btn-secondary" type="button" @onclick="NewTools">New</button>
+</EditForm>
+
+
+@code
+{
+    private ToolsData Input { get; set; } = new();
+    private const string textRoute = "/profile";
+    private bool showCueStickData;
+    private void NewTools() => Input = new();
+    private void SubmitToolsData()
+    {
+        showCueStickData = true;
+    }
+}
