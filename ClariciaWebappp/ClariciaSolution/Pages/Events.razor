@@ -1,131 +1,108 @@
-﻿@page "/Events"
+﻿@page "/Event"
+@using ProductLibrary
+@using Microsoft.AspNetCore.Components.Forms
 
-@using System.ComponentModel.DataAnnotations
+<h3>Product Form</h3>
 
-<h3>Buy Services Tools </h3>
+<EditForm Model="@product" OnValidSubmit="SaveProduct">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
 
-<div class="container">
-    <EditForm Model="@product" OnValidSubmit="AddProduct">
-        <DataAnnotationsValidator />
-        <ValidationSummary />
+    <div class="form-group">
+        <label for="ProductName">Product Name:</label>
+        <InputText id="ProductName" @bind-Value="product.Name" class="form-control" />
+        <ValidationMessage For="@(() => product.Name)" />
+    </div>
 
-        <div class="form-group">
-            <label for="ProductName">Product Name:</label>
-            <InputText id="ProductName" @bind-Value="product.Name" class="form-control" />
-            <ValidationMessage For="@(() => product.Name)" />
-        </div>
+    <div class="form-group">
+        <label for="ProductColor">Product Color:</label>
+        <InputText id="ProductColor" @bind-Value="product.Color" class="form-control" />
+        <ValidationMessage For="@(() => product.Color)" />
+    </div>
 
-        <div class="form-group">
-            <label for="ProductColor">Product Color:</label>
-            <InputText id="ProductColor" @bind-Value="product.Color" class="form-control" />
-            <ValidationMessage For="@(() => product.Color)" />
-        </div>
+    <div class="form-group">
+        <label for="ProductPrice">Price:</label>
+        <InputNumber id="ProductPrice" @bind-Value="product.Price" class="form-control" />
+        <ValidationMessage For="@(() => product.Price)" />
+    </div>
 
-        <div class="form-group">
-            <label for="ProductPrice">Price:</label>
-            <InputNumber id="ProductPrice" @bind-Value="product.Price" class="form-control" />
-            <ValidationMessage For="@(() => product.Price)" />
-        </div>
+    <div class="form-group">
+        <label for="ProductQuantity">Quantity:</label>
+        <InputNumber id="ProductQuantity" @bind-Value="product.Quantity" class="form-control" />
+        <ValidationMessage For="@(() => product.Quantity)" />
+    </div>
 
-        <div class="form-group">
-            <label for="ProductQuantity">Quantity:</label>
-            <InputNumber id="ProductQuantity" @bind-Value="product.Quantity" class="form-control" />
-            <ValidationMessage For="@(() => product.Quantity)" />
-        </div>
+    <button type="submit" class="btn btn-primary">
+        @buttonLabel
+    </button>
+</EditForm>
 
-        <button type="submit" class="btn btn-primary">Add Product</button>
-    </EditForm>
-
-    <h4>Product List</h4>
-    <ul class="list-group">
-        @foreach (var p in products)
-        {
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                <span>@p.Name (@p.Color) - $@p.Price (Quantity: @p.Quantity)</span>
-                <div>
-                    <button @onclick="() => UpdateProduct(p)" class="btn btn-warning btn-sm">Update</button>
-                    <button @onclick="() => DeleteProduct(p)" class="btn btn-danger btn-sm">Delete</button>
-                </div>
-            </li>
-        }
-    </ul>
-</div>
+<h4>Product List</h4>
+<ul class="list-group">
+    @foreach (var p in products)
+    {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>@p.Name (@p.Color) - $@p.Price (Quantity: @p.Quantity)</span>
+            <div>
+                <button @onclick="() => UpdateProduct(p)" class="btn btn-warning btn-sm">Update</button>
+                <button @onclick="() => DeleteProduct(p)" class="btn btn-danger btn-sm">Delete</button>
+            </div>
+        </li>
+    }
+</ul>
 
 @code {
     private Product product = new Product();
     private List<Product> products = new List<Product>();
+    private string buttonLabel = "Add Product";
+    private Product productToUpdate = null;
 
     private void AddProduct()
     {
-        products.Add(new Product
+        // Add product logic
+        products.Add(product);
+        product = new Product(); // Reset form
+    }
+
+    private void UpdateProduct(Product product)
+    {
+        // Set the productToUpdate and populate the form with its values
+        this.productToUpdate = product;
+        this.product = new Product
             {
                 Name = product.Name,
                 Color = product.Color,
                 Price = product.Price,
                 Quantity = product.Quantity
-            });
-        ClearFields();
+            };
+        buttonLabel = "Update Product"; // Change button label to "Update Product"
     }
 
-    private void UpdateProduct(Product productToUpdate)
+    private void SaveProduct()
     {
-        product = productToUpdate;
-        DeleteProduct(productToUpdate);
+        if (productToUpdate == null)
+        {
+            // Add new product
+            products.Add(product);
+        }
+        else
+        {
+            // Update existing product
+            var index = products.IndexOf(productToUpdate);
+            if (index >= 0)
+            {
+                products[index] = product;
+            }
+        }
+
+        productToUpdate = null; // Reset productToUpdate
+        product = new Product(); // Reset form
+        buttonLabel = "Add Product"; // Reset button label
     }
 
-    private void DeleteProduct(Product productToDelete)
+    private void DeleteProduct(Product product)
     {
-        products.Remove(productToDelete);
-    }
-
-    private void ClearFields()
-    {
-        product = new Product();
-    }
-
-    public class Product
-    {
-        [Required(ErrorMessage = "Name is required.")]
-        public string? Name { get; set; }
-
-        [Required(ErrorMessage = "Color is required.")]
-        public string? Color { get; set; }
-
-        [Range(1, double.MaxValue, ErrorMessage = "Price must be greater than zero.")]
-        public decimal Price { get; set; }
-
-        [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
-        public int Quantity { get; set; }
+        // Delete product logic
+        products.Remove(product);
     }
 }
-
-<style>
-    
-
-    .container {
-        max-width: 600px;
-        margin: auto;
-        padding: 20px;
-        background-color: rgba(249, 249, 249, 0.8);
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    h3 {
-        text-align: center;
-    }
-
-    .form-group {
-        margin-bottom: 15px;
-    }
-
-    .list-group {
-        margin-top: 20px;
-    }
-
-    .list-group-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-</style>

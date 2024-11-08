@@ -9,3 +9,15 @@ C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.dll
 C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\refint\Clariciaclass.dll
 C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.pdb
 C:\Ipt-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\ref\Clariciaclass.dll
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\bin\Debug\net6.0\Clariciaclass.deps.json
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\bin\Debug\net6.0\Clariciaclass.dll
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\bin\Debug\net6.0\Clariciaclass.pdb
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.AssemblyInfoInputs.cache
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.AssemblyInfo.cs
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.csproj.CoreCompileInputs.cache
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.sourcelink.json
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.dll
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\refint\Clariciaclass.dll
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\Clariciaclass.pdb
+D:\Magsayo\IPT-102\IPT-102\ClariciaWebappp\Clariciaclass\obj\Debug\net6.0\ref\Clariciaclass.dll

@@ -1,49 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Ipt-102\\ClariciaWebappp\\",
+  "WorkspaceRootPath": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\data\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\data\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\events.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\events.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\events.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\data\\productlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\data\\productlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597551F5-5FE7-444B-BDA6-CC0D4EDF84C7}|Clariciaclass\\Clariciaclass.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciaclass\\clariciaclass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{597551F5-5FE7-444B-BDA6-CC0D4EDF84C7}|Clariciaclass\\Clariciaclass.csproj|solutionrelative:clariciaclass\\clariciaclass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Data\\Tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\video.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\video.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\video.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\music.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\music.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\music.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|c:\\ipt-102\\clariciawebappp\\clariciasolution\\clariciasolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|d:\\magsayo\\ipt-102\\ipt-102\\clariciawebappp\\clariciasolution\\clariciasolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B9681479-E63D-4585-B7D5-F03CC750912A}|ClariciaSolution\\ClariciaSolution.csproj|solutionrelative:clariciasolution\\clariciasolution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -54,28 +61,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tools.cs",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Data\\Tools.cs",
-              "RelativeDocumentMoniker": "ClariciaSolution\\Data\\Tools.cs",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Data\\Tools.cs",
-              "RelativeToolTip": "ClariciaSolution\\Data\\Tools.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductLibrary.cs",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Data\\ProductLibrary.cs",
+              "RelativeDocumentMoniker": "ClariciaSolution\\Data\\ProductLibrary.cs",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Data\\ProductLibrary.cs",
+              "RelativeToolTip": "ClariciaSolution\\Data\\ProductLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T19:23:09.536Z",
+              "WhenOpened": "2024-11-08T02:20:21.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Clariciaclass",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj",
+              "RelativeDocumentMoniker": "Clariciaclass\\Clariciaclass.csproj",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj",
+              "RelativeToolTip": "Clariciaclass\\Clariciaclass.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-08T02:18:21.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Data\\Tools.cs",
+              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Data\\Tools.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:23:09.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Profile.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Profile.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Profile.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Profile.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Profile.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Profile.razor",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -83,11 +112,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\MainLayout.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Shared\\MainLayout.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\MainLayout.razor",
               "RelativeToolTip": "ClariciaSolution\\Shared\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -97,33 +126,35 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\NavMenu.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Shared\\NavMenu.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Shared\\NavMenu.razor",
               "RelativeToolTip": "ClariciaSolution\\Shared\\NavMenu.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T19:07:33.115Z"
+              "WhenOpened": "2024-11-06T19:07:33.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Events.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Events.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Events.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Events.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Events.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Events.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Events.razor",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T19:03:03.934Z"
+              "WhenOpened": "2024-11-06T19:03:03.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Interactive.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Interactive.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Interactive.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Interactive.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Interactive.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Interactive.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Interactive.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -131,11 +162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Music.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Music.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Music.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Music.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Music.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Music.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Music.razor",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -143,11 +174,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Video.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Video.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Video.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Video.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Video.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Video.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Video.razor",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -155,11 +186,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Contact.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Contact.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Contact.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Contact.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Contact.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Contact.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Contact.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -167,11 +198,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Calculator.razor",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Calculator.razor",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Calculator.razor",
               "RelativeDocumentMoniker": "ClariciaSolution\\Pages\\Calculator.razor",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Calculator.razor",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\Pages\\Calculator.razor",
               "RelativeToolTip": "ClariciaSolution\\Pages\\Calculator.razor",
               "ViewState": "AgIAADQAAAAAAAAAAAAQwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -179,15 +210,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ClariciaSolution.csproj",
-              "DocumentMoniker": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
+              "DocumentMoniker": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
               "RelativeDocumentMoniker": "ClariciaSolution\\ClariciaSolution.csproj",
-              "ToolTip": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
+              "ToolTip": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
               "RelativeToolTip": "ClariciaSolution\\ClariciaSolution.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-06T19:01:05.961Z"
+              "WhenOpened": "2024-11-06T19:01:05.961Z",
+              "EditorCaption": ""
             }
           ]
         }

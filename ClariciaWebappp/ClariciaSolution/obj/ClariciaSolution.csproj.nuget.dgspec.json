@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj": {}
+    "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj": {}
   },
   "projects": {
-    "C:\\Ipt-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj": {
+    "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ipt-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj",
+        "projectUniqueName": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj",
         "projectName": "Clariciaclass",
-        "projectPath": "C:\\Ipt-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Ipt-102\\ClariciaWebappp\\Clariciaclass\\obj\\",
+        "projectPath": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj",
+        "packagesPath": "C:\\Users\\LAB-49\\.nuget\\packages\\",
+        "outputPath": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LAB-49\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj": {
+    "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
+        "projectUniqueName": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
         "projectName": "ClariciaSolution",
-        "projectPath": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Ipt-102\\ClariciaWebappp\\ClariciaSolution\\obj\\",
+        "projectPath": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\ClariciaSolution.csproj",
+        "packagesPath": "C:\\Users\\LAB-49\\.nuget\\packages\\",
+        "outputPath": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\ClariciaSolution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LAB-49\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Ipt-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj": {
-                "projectPath": "C:\\Ipt-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj"
+              "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj": {
+                "projectPath": "D:\\Magsayo\\IPT-102\\IPT-102\\ClariciaWebappp\\Clariciaclass\\Clariciaclass.csproj"
               }
             }
           }
@@ -137,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
